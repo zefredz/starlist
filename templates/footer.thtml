@@ -1,0 +1,8 @@
+<hr />
+<?php
+    $summary = sprintf( 'Elapsed time %f seconds', $profiler->getElapsedTime() );
+    $details = $profiler->report();
+    echo $debugReporter->render( $summary, $details );
+?>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<div id="fileSelector">
+<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
+<label for="starList">Select Star List File : </label>
+<select name="starList">
+<?php
+    foreach( $fileList as $id => $sfile )
+    {
+        if ( $id == $selectedId )
+        {
+?>
+<option value="<?php echo $id; ?>" selected="selected"><?php echo basename($sfile); ?></option>
+<?php
+        }
+        else
+        {
+?>
+<option value="<?php echo $id; ?>"><?php echo basename($sfile); ?></option>
+<?php
+        }
+    }
+?>
+</select>
+<input type="submit" name="fileSelect" value="Select" />
+</form>
+<hr />
+</div>

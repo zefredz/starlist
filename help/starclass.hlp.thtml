@@ -1,0 +1,50 @@
+<h1>Star Classification</h1>
+Stellar classification for a star is given by
+<ul>
+<li>a spectral type</li>
+<li>a subtype</li>
+<li>a luminosity class</li>
+</ul>
+For example : G2V is a star with
+<ul>
+<li>G spectral type</li>
+<li>2 subtype</li>
+<li>V luminosity class</li>
+</ul>
+<h2>Spectral Types</h2>
+<p><img src="./img/obafgkm.jpg" alt="spectral types" /></p>
+<table>
+<thead>
+<tr><th>Type</th><th>Temperature</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>O</td><td>30,000 - 60,000 K</td><td>Blue stars</td></tr>
+<tr><td>B</td><td>10,000 - 30,000 K</td><td>Blue-white stars</td></tr>
+<tr><td>A</td><td>7,500 - 10,000 K</td><td> White stars</td></tr>
+<tr><td>F</td><td>6,000 - 7,500 K</td><td>Yellow-white stars</td></tr>
+<tr><td>G</td><td>5,000 - 6,000 K</td><td>Yellow stars (like the Sun)</td></tr>
+<tr><td>K</td><td>3,500 - 5,000K</td><td>Yellow-orange stars</td></tr>
+<tr><td>M</td><td>&lt; 3,500 K</td><td>Red stars</td></tr>
+</tbody>
+</table>
+<h3>Extended Spectral Types</h3>
+<p><strong>d</strong> denotes a White Dwarf</p>
+<h2>Subtypes</h2>
+Within each stellar type, stars are placed into subclasses (from 0 to 9) based
+on its position within its Spectral Type scale.
+<h2>Luminosity Class</h2>
+<table>
+<thead>
+<tr><th>Type</th><th>Star</th></tr>
+</thead>
+<tbody>
+<tr><td>0</td><td>Hypergiants</td></tr>
+<tr><td>I</td><td>Supergiants (subclassed in a,ab,b)</td></tr>
+<tr><td>II</td><td>Luminous giants (subclassed in a,ab,b)</td></tr>
+<tr><td>III</td><td>Giants (subclassed in a,ab,b)</td></tr>
+<tr><td>IV</td><td>Subgiants (subclassed in a,ab,b)</td></tr>
+<tr><td>V</td><td>Main sequence stars (<em>"dwarf"</em> stars, subclassed in a,ab,b)</td></tr>
+<tr><td>VI</td><td>Subdwarfs</td></tr>
+<tr><td>VII</td><td>White Dwarfs</td></tr>
+</tbody>
+</table>

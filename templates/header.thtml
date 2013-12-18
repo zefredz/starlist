@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<title><?php echo $starList->siteName; ?></title>
+<link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+<script type="text/javascript" src="<?php echo $starList->javascriptRepositoryWeb;?>/popup.js"></script>
+<?php echo $starList->reporter->renderStyle();?>
+<?php echo $starList->reporter->renderJs();?>
+</head>
+<body>
